@@ -1,0 +1,264 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PrinceGame.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\PrinceGame.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PrinceGame 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "PrinceGame 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_PRINCEGAME_DIALOG DIALOGEX 0, 0, 319, 200
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "굴림", 0, 0, 0x1
+BEGIN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PrinceGame MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PrinceGame\0"
+            VALUE "LegalCopyright", "Copyright (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PrinceGame.EXE\0"
+            VALUE "ProductName", "PrinceGame 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PRINCEGAME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BGSKIN01            BITMAP  DISCARDABLE     "res\\bgSkin01.bmp"
+IDB_BGSKINMASK          BITMAP  DISCARDABLE     "res\\bgSkinMask.bmp"
+IDB_RLEVEL1             BITMAP  DISCARDABLE     "marble\\Red_Level1.bmp"
+IDB_RLEVEL2             BITMAP  DISCARDABLE     "marble\\Red_Level2.bmp"
+IDB_RLEVEL3             BITMAP  DISCARDABLE     "marble\\Red_Level3.bmp"
+IDB_RLEVEL4             BITMAP  DISCARDABLE     "marble\\Red_Level4.bmp"
+IDB_YLEVEL1             BITMAP  DISCARDABLE     "marble\\Yellow_Level1.bmp"
+IDB_YLEVEL2             BITMAP  DISCARDABLE     "marble\\Yellow_Level2.bmp"
+IDB_YLEVEL3             BITMAP  DISCARDABLE     "marble\\Yellow_Level3.bmp"
+IDB_YLEVEL4             BITMAP  DISCARDABLE     "marble\\Yellow_Level4.bmp"
+IDB_GLEVEL1             BITMAP  DISCARDABLE     "marble\\Green_Level1.bmp"
+IDB_GLEVEL2             BITMAP  DISCARDABLE     "marble\\Green_Level2.bmp"
+IDB_GLEVEL3             BITMAP  DISCARDABLE     "marble\\Green_Level3.bmp"
+IDB_GLEVEL4             BITMAP  DISCARDABLE     "marble\\Green_Level4.bmp"
+IDB_CLEVEL4             BITMAP  DISCARDABLE     "marble\\Cyan_Level4.bmp"
+IDB_CLEVEL1             BITMAP  DISCARDABLE     "marble\\Cyan_Level1.bmp"
+IDB_CLEVEL2             BITMAP  DISCARDABLE     "marble\\Cyan_Level2.bmp"
+IDB_CLEVEL3             BITMAP  DISCARDABLE     "marble\\Cyan_Level3.bmp"
+IDB_BLEVEL1             BITMAP  DISCARDABLE     "marble\\Blue_Level1.bmp"
+IDB_BLEVEL2             BITMAP  DISCARDABLE     "marble\\Blue_Level2.bmp"
+IDB_BLEVEL3             BITMAP  DISCARDABLE     "marble\\Blue_Level3.bmp"
+IDB_BLEVEL4             BITMAP  DISCARDABLE     "marble\\Blue_Level4.bmp"
+IDB_PLEVEL4             BITMAP  DISCARDABLE     "marble\\Pink_Level4.bmp"
+IDB_PLEVEL1             BITMAP  DISCARDABLE     "marble\\Pink_Level1.bmp"
+IDB_PLEVEL2             BITMAP  DISCARDABLE     "marble\\Pink_Level2.bmp"
+IDB_PLEVEL3             BITMAP  DISCARDABLE     "marble\\Pink_Level3.bmp"
+IDB_LEVELM1             BITMAP  DISCARDABLE     "marble\\Level1_Mask.bmp"
+IDB_LEVELM2             BITMAP  DISCARDABLE     "marble\\Level2_Mask.bmp"
+IDB_LEVELM3             BITMAP  DISCARDABLE     "marble\\Level3_Mask.bmp"
+IDB_LEVELM4             BITMAP  DISCARDABLE     "marble\\Level4_Mask.bmp"
+IDB_ITEM01M             BITMAP  DISCARDABLE     "items\\ONE_MASK.bmp"
+IDB_ITEM01              BITMAP  DISCARDABLE     "items\\ONE.bmp"
+IDB_ITEM02M             BITMAP  DISCARDABLE     "items\\TWO_MARK.bmp"
+IDB_ITEM02              BITMAP  DISCARDABLE     "items\\TWO.bmp"
+IDB_ITEM04              BITMAP  DISCARDABLE     "items\\FOUR.bmp"
+IDB_ITEM04M             BITMAP  DISCARDABLE     "items\\FOUR_MASK.bmp"
+IDB_ITEM03              BITMAP  DISCARDABLE     "items\\THREE.bmp"
+IDB_ITEM03M             BITMAP  DISCARDABLE     "items\\THREE_MARK.bmp"
+IDB_TIMEOVER            BITMAP  DISCARDABLE     "res\\TIMEOVER.bmp"
+IDB_TIMEOVERMASK        BITMAP  DISCARDABLE     "res\\TIMEOVER_MASK.bmp"
+IDB_START               BITMAP  DISCARDABLE     "res\\START.bmp"
+IDB_STARTMASK           BITMAP  DISCARDABLE     "res\\START_MASK.bmp"
+IDB_OVER                BITMAP  DISCARDABLE     "res\\OVER.bmp"
+IDB_OVERMASK            BITMAP  DISCARDABLE     "res\\OVER_MASK.bmp"
+IDB_FIRE                BITMAP  DISCARDABLE     "res\\FIRE.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_MOVE                WAVE    DISCARDABLE     "wave\\move.wav"
+IDR_CANCEL              WAVE    DISCARDABLE     "wave\\cancel.wav"
+IDR_ITEM                WAVE    DISCARDABLE     "wave\\item.wav"
+IDR_WAIT                WAVE    DISCARDABLE     "wave\\wait.wav"
+IDR_START               WAVE    DISCARDABLE     "wave\\start.wav"
+IDR_OVER                WAVE    DISCARDABLE     "wave\\over.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "PrinceGame 정보(&A)..."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\PrinceGame.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
